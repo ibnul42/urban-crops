@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { FiX } from "react-icons/fi";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Logo from "./Logo";
@@ -34,13 +35,15 @@ const Header = () => {
 
         {/* Social Media */}
         <div className="flex gap-4">
-          {[FaLinkedin].map(
-            (Icon, index) => (
-              <Link key={index} href="https://www.linkedin.com/company/urban-cropss" target="_blank">
-                <Icon className="text-green-600 hover:text-green-800 text-2xl" />
-              </Link>
-            )
-          )}
+          {[FaLinkedin].map((Icon, index) => (
+            <Link
+              key={index}
+              href="https://www.linkedin.com/company/urban-cropss"
+              target="_blank"
+            >
+              <Icon className="text-green-600 hover:text-green-800 text-2xl" />
+            </Link>
+          ))}
         </div>
 
         {/* Mobile Menu Button */}
@@ -93,11 +96,13 @@ const MobileMenu = ({ isOpen, setIsOpen }: MobileMenuProps) => {
 
       {/* Social Media Icons */}
       <div className="flex-1 flex items-center gap-6 mt-8 text-2xl">
-        {[FaFacebook, FaInstagram, FaLinkedin,FaXTwitter, FaYoutube].map((Icon, index) => (
-          <Link key={index} href="#">
-            <Icon className="text-green-600" />
-          </Link>
-        ))}
+        {[FaFacebook, FaInstagram, FaLinkedin, FaXTwitter, FaYoutube].map(
+          (Icon, index) => (
+            <Link key={index} href="#">
+              <Icon className="text-green-600" />
+            </Link>
+          )
+        )}
       </div>
     </div>
   );
