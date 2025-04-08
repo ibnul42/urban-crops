@@ -34,23 +34,23 @@ const Header = () => {
         </nav> */}
 
         {/* Social Media */}
-        <div className="hidden md:flex gap-4">
-          {[FaFacebook, FaInstagram, FaLinkedin,FaXTwitter, FaYoutube].map(
+        <div className="flex gap-4">
+          {[FaLinkedin].map(
             (Icon, index) => (
-              <Link key={index} href="#">
-                <Icon className="text-green-600 hover:text-green-800 text-lg" />
+              <Link key={index} href="https://www.linkedin.com/company/urban-cropss" target="_blank">
+                <Icon className="text-green-600 hover:text-green-800 text-2xl" />
               </Link>
             )
           )}
         </div>
 
         {/* Mobile Menu Button */}
-        <button
+        {/* <button
           onClick={() => setIsOpen(true)}
           className="md:hidden text-2xl text-green-600 cursor-pointer"
         >
           <FiMenu />
-        </button>
+        </button> */}
       </div>
 
       {/* Mobile Menu - Sliding from Left */}

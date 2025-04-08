@@ -6,7 +6,7 @@ export default function Details() {
     <div>
       <section className="bg-white">
         <div className="container mx-auto px-3 py-5">
-          <h2 className="text-green-600 font-bold text-xl md:text-2xl text-center">
+          <h2 className="text-[#7ACA2A] font-bold text-xl md:text-2xl text-center">
             Funkcje Urban Crops <br /> i Przewaga Konkurencyjna
           </h2>
           <div className="">
@@ -34,7 +34,7 @@ export default function Details() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-green-500 font-semibold text-lg md:text-xl mt-4">
+                <h3 className="text-[#7ACA2A] font-semibold text-lg md:text-xl mt-4">
                   Efektywna produkcja żywności
                 </h3>
                 <p className="text-gray-700 mt-2">
@@ -42,15 +42,15 @@ export default function Details() {
                 </p>
                 <ul className="mt-3 space-y-2 text-gray-700">
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
                     Fotobioreaktory i hydroponika
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
                     Lokalna dostępność
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
                     Zrównoważona produkcja
                   </li>
                 </ul>
@@ -90,7 +90,7 @@ export default function Details() {
                 </div>
               </div>
               <div className="order-1">
-                <h3 className="text-green-500 font-semibold text-lg md:text-xl mt-4">
+                <h3 className="text-[#7ACA2A] font-semibold text-lg md:text-xl mt-4">
                   Odnawialne źródła energii
                 </h3>
                 <p className="text-gray-700 mt-2">
@@ -99,15 +99,15 @@ export default function Details() {
                 </p>
                 <ul className="mt-3 space-y-2 text-gray-700">
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
                     Turbiny wiatrowe i panele fotowoltaiczne
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
                     Niezależność energetyczna
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
                     Produkcja biomasy
                   </li>
                 </ul>
@@ -147,7 +147,7 @@ export default function Details() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-green-500 font-semibold text-lg md:text-xl mt-4">
+                <h3 className="text-[#7ACA2A] font-semibold text-lg md:text-xl mt-4">
                   Koncepcja &quot;Farm-to-table&quot;
                 </h3>
                 <p className="text-gray-700 mt-2">
@@ -157,15 +157,15 @@ export default function Details() {
                 </p>
                 <ul className="mt-3 space-y-2 text-gray-700">
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
                     Świeżość produktów przekłada się na lepszy smak
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
                     Świadomość pochodzenia żywności
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
                     Zwiększone bezpieczeństwo żywnościowe
                   </li>
                 </ul>
