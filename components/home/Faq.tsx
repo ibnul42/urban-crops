@@ -75,7 +75,7 @@ const faqItems = [
   },
 ];
 
-const FAQ = () => {
+const Faq = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggle = (index: number) => {
@@ -121,4 +121,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Faq;

@@ -1,7 +1,6 @@
 import ContactForm from "@/components/home/ContactForm";
-import CropsSection from "@/components/home/CropsSection";
 import Details from "@/components/home/Details";
-import FAQ from "@/components/home/FAQ";
+import FAQ from "@/components/home/Faq";
 import HeroSection from "@/components/home/HeroSection";
 import TeamSection from "@/components/home/TeamSection";
 import WhatWeGrow from "@/components/home/WhatWeGrow";
@@ -11,7 +10,6 @@ export default function Home() {
     <div className="">
       <HeroSection />
       <Details />
-      {/* <CropsSection /> */}
       <WhatWeGrow />
       <FAQ />
       <TeamSection />
