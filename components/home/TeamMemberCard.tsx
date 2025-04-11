@@ -26,7 +26,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
         </div>
 
         {socials && (
-          <div className="absolute -bottom-12 inset-x-0 rounded-b-xl py-2 px-2 bg-white opacity-0 transform -translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 border border-[#7ACA2A] border-t-white">
+          <div className="relative md:absolute md:-bottom-12 inset-x-0 rounded-b-xl py-2 px-2 bg-white md:opacity-0 transform -translate-y-2 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 md:border border-[#7ACA2A] border-t-white">
             <div className="w-full bg-[#408000] h-0.5"></div>
             <div className="flex gap-4 py-2">{socials}</div>
           </div>

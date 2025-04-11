@@ -1,12 +1,9 @@
 "use client";
-import FacebookIcon from "../icons/FacebookIcon";
-import InstagramIcon from "../icons/InstagramIcon";
 import LinkedInIcon from "../icons/LinkedInIcon";
-import TwitterIcon from "../icons/TwitterIcon";
-import YoutubeIcon from "../icons/YoutubeIcon";
 import MapIcon from "../icons/MapIcon";
 import PhoneIcon from "../icons/PhoneIcon";
 import MessageIcon from "../icons/MessageIcon";
+import Link from "next/link";
 
 export default function ContactForm() {
   return (
@@ -40,11 +37,12 @@ export default function ContactForm() {
 
           {/* Social Icons */}
           <div className="flex items-center gap-4 pt-4">
-            <FacebookIcon className="text-lime-600 cursor-pointer hover:scale-110 transition w-7" />
-            <InstagramIcon className="text-lime-600 cursor-pointer hover:scale-110 transition w-7" />
-            <LinkedInIcon className="text-lime-600 cursor-pointer hover:scale-110 transition w-7" />
-            <TwitterIcon className="text-lime-600 cursor-pointer hover:scale-110 transition w-7" />
-            <YoutubeIcon className="text-lime-600 cursor-pointer hover:scale-110 transition w-8" />
+            <Link
+              href="https://www.linkedin.com/in/kacper-szajnecki-7036352b3/"
+              target="_blank"
+            >
+              <LinkedInIcon className="w-6 h-6 hover:scale-110 cursor-pointer transition" />
+            </Link>
           </div>
         </div>
 
