@@ -6,7 +6,7 @@ interface LogoProps {
   src?: string;
 }
 
-const Logo: React.FC<LogoProps> = ({ color = "text-green-600", src = "/assets/logo.png" }) => {
+const Logo: React.FC<LogoProps> = ({ color = "text-[#7ACA2A]", src = "/assets/logo.png" }) => {
   return (
     <Link
       href="/"

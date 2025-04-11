@@ -5,7 +5,7 @@ export default function Details() {
   return (
     <div>
       <section className="bg-white">
-        <div className="container mx-auto px-3 py-5">
+        <div className="container mx-auto px-3 py-5 md:py-7 lg:py-10">
           <h2 className="text-[#7ACA2A] font-bold text-xl md:text-2xl text-center">
             Funkcje Urban Crops <br /> i Przewaga Konkurencyjna
           </h2>

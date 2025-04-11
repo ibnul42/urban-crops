@@ -21,17 +21,18 @@ export default function ContactForm() {
           </div>
 
           <div className="flex-1 flex flex-col justify-center space-y-3 text-sm text-gray-700">
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <MapIcon className="text-lime-600" />
               <span>838 Cantt Sialkot, World</span>
-            </div>
+            </div> */}
             <div className="flex items-center gap-2">
               <PhoneIcon className="text-lime-600" />
-              <span>879-988-89787</span>
+              <a href="tel:531730697">531 730 697</a>
             </div>
             <div className="flex items-center gap-2">
               <MessageIcon className="text-lime-600" />
-              <span>abcd123@gmail.com</span>
+              <a href="mailto:kontakt@urbancrops.pl">kontakt@urbancrops.pl</a>
+              {/* <span>kontakt@urbancrops.pl</span> */}
             </div>
           </div>
 

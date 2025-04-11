@@ -31,7 +31,7 @@ const crops = [
 
 const WhatWeGrow = () => {
   return (
-    <section className="bg-white py-16 px-4">
+    <section className="bg-white px-3 py-5 md:py-7 lg:py-10">
       <h2 className="text-center text-[#7ACA2A] font-semibold text-xl mb-12">
         Co można uprawiać
       </h2>

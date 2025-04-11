@@ -84,7 +84,7 @@ const Faq = () => {
 
   return (
     <section className="bg-white">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-3 py-5 md:py-7 lg:py-10">
         <h2 className="text-center text-[#7ACA2A] font-semibold text-lg mb-8">
           Często zadawane pytania
         </h2>

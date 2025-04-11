@@ -26,7 +26,7 @@ const Header = () => {
             <Link
               key={item}
               href={`/${item.toLowerCase()}`}
-              className="hover:text-green-600 transition"
+              className="hover:text-[#7ACA2A] transition"
             >
               {item}
             </Link>
@@ -41,7 +41,7 @@ const Header = () => {
               href="https://www.linkedin.com/company/urban-cropss"
               target="_blank"
             >
-              <Icon className="text-green-600 hover:text-green-800 text-2xl" />
+              <Icon className="text-[#7ACA2A] hover:text-green-800 text-2xl" />
             </Link>
           ))}
         </div>
@@ -49,7 +49,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         {/* <button
           onClick={() => setIsOpen(true)}
-          className="md:hidden text-2xl text-green-600 cursor-pointer"
+          className="md:hidden text-2xl text-[#7ACA2A] cursor-pointer"
         >
           <FiMenu />
         </button> */}
@@ -75,7 +75,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: MobileMenuProps) => {
         <Logo />
         <button
           onClick={() => setIsOpen(false)}
-          className="text-3xl text-green-600 cursor-pointer"
+          className="text-3xl text-[#7ACA2A] cursor-pointer"
         >
           <FiX />
         </button>
@@ -86,7 +86,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: MobileMenuProps) => {
           <Link
             key={item}
             href={`/${item.toLowerCase()}`}
-            className="hover:text-green-600"
+            className="hover:text-[#7ACA2A]"
             onClick={() => setIsOpen(false)}
           >
             {item}
@@ -99,7 +99,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: MobileMenuProps) => {
         {[FaFacebook, FaInstagram, FaLinkedin, FaXTwitter, FaYoutube].map(
           (Icon, index) => (
             <Link key={index} href="#">
-              <Icon className="text-green-600" />
+              <Icon className="text-[#7ACA2A]" />
             </Link>
           )
         )}
