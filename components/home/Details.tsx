@@ -64,7 +64,7 @@ export default function Details() {
         </div>
       </section>
       <section className="bg-[#EBFFD8]">
-        <div className="container mx-auto px-3 py-5">
+        <div className="container mx-auto px-3 py-5 md:py-7 lg:py-10">
           <div className="">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-5">
               <div className="grid grid-cols-2 order-2">
@@ -121,7 +121,7 @@ export default function Details() {
         </div>
       </section>
       <section className="bg-white">
-        <div className="container mx-auto px-3 py-5">
+        <div className="container mx-auto px-3 py-5 md:py-7 lg:py-10">
           <div className="">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-5">
               <div className="grid grid-cols-2 order-2 md:order-1">
