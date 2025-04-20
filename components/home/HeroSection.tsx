@@ -21,7 +21,7 @@ const HeroSection = () => {
         <div className="space-y-5 text-white flex flex-col justify-center">
           <h1 className="font-bold text-4xl lg:text-5xl">Czas na wzrost</h1>
           <p className="font-bold text-xl md:text-2xl lg:text-3xl">
-            Twoja wizja. Twoja społeczność. Twoja Freight Farm.
+            Twoja wizja. Twoja społeczność.
           </p>
           <p className="text-sm md:text-base lg:text-lg opacity-80">
             Rozpocznij uprawę dzięki kompletnej platformie do pionowego

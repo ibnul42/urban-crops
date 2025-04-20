@@ -13,8 +13,8 @@ const TeamSection = () => {
 
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <TeamMemberCard
-          name="szajnecki"
-          role="Partner"
+          name="Kacper Szajnecki"
+          role="Twórca treści cyfrowych"
           imageUrl="/assets/szajnecki.jpg"
           socials={
             <>
@@ -57,8 +57,8 @@ const TeamSection = () => {
         />
 
         <TeamMemberCard
-          name="michal"
-          role="Partner"
+          name="Michał Moryc"
+          role="PR i Administracja"
           imageUrl="/assets/michal.jpg"
           socials={
             <>

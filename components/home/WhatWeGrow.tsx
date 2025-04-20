@@ -3,27 +3,27 @@ import Image from "next/image";
 
 const crops = [
   {
-    title: "LETTUCE",
+    title: "SAŁATY",
     img: "/assets/lettuce.png",
     desc: "Sałata rośnie szybko i jest łatwa w uprawie. Jej kruchość sprawia, że jest atrakcyjna dla konsumentów, a produkcja w systemach hydroponicznych zwiększa jej walory odżywcze.",
   },
   {
-    title: "STRAWBERRY",
+    title: "TRUSKAWKI",
     img: "/assets/strawberry.png",
     desc: "System hydroponiczny pozwala na dostarczanie składników i wody bezpośrednio do korzeni, dzięki czemu truskawki mogą osiągać lepsze plony i mają większą trwałość oraz cenę na rynku.",
   },
   {
-    title: "TOMATOES",
+    title: "POMIDORY",
     img: "/assets/tomato.png",
     desc: "Pomidory uprawiane metodą hydroponiczną mają doskonały smak i są odporne na choroby. Idealne do spożycia na surowo lub w gotowaniu.",
   },
   {
-    title: "BASIL",
+    title: "ZIOŁA",
     img: "/assets/basil.png",
     desc: "Bazylia to zielone zioło, które kojarzy się z kuchnią śródziemnomorską. Rośnie szybko i daje przyjemny aromat. Świetnie sprawdza się w uprawach hydroponicznych.",
   },
   {
-    title: "CUCUMBER",
+    title: "OGÓRKI",
     img: "/assets/cucumber.png",
     desc: "Produkcja ogórków metodą hydroponiczną jest wydajna i pozwala na uprawę bez konieczności używania gleby.",
   },
@@ -31,14 +31,14 @@ const crops = [
 
 const WhatWeGrow = () => {
   return (
-    <section className="bg-white px-3 py-5 md:py-7 lg:py-10">
-      <h2 className="text-center text-[#7ACA2A] font-semibold text-xl mb-12">
+    <section className="bg-white px-3 py-2 md:py-7 lg:py-10">
+      <h2 className="text-center text-[#7ACA2A] font-semibold text-xl mb-5 md:mb-12">
         Co można uprawiać
       </h2>
       <div className="md:hidden">
         {crops.map((crop, idx) => (
           <div
-            className="flex gap-3 py-5 first:pt-0 last:pb-0 relative"
+            className="flex gap-3 py-1 first:pt-0 last:pb-0 relative"
             key={idx}
           >
             <div className="absolute bottom-0 left-[72px] right-[71px] h-[1px] overflow-hidden">

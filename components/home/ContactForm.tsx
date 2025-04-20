@@ -37,38 +37,38 @@ export default function ContactForm() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex items-center gap-4 pt-4">
+          {/* <div className="flex items-center gap-4 pt-4">
             <Link
               href="https://www.linkedin.com/in/kacper-szajnecki-7036352b3/"
               target="_blank"
             >
               <LinkedInIcon className="w-6 h-6 hover:scale-110 cursor-pointer transition" />
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* Right: Contact Form */}
         <form className="md:w-1/2 lg:w-3/5 max-w-2xl mx-auto space-y-4 text-black placeholder:text-[#7A7A7A]">
           <input
             type="text"
-            placeholder="Enter your name"
+            placeholder="Imię"
             className="w-full border border-lime-500 rounded px-4 py-2 text-sm outline-none focus:ring-2 focus:ring-lime-500"
           />
           <input
             type="email"
-            placeholder="Enter your email address"
+            placeholder="Email"
             className="w-full border border-lime-500 rounded px-4 py-2 text-sm outline-none focus:ring-2 focus:ring-lime-500"
           />
           <textarea
             rows={5}
-            placeholder="Go ahead, We are listening..."
+            placeholder="Twoja wiadomość..."
             className="w-full border border-lime-500 rounded px-4 py-2 text-sm resize-none outline-none focus:ring-2 focus:ring-lime-500"
           ></textarea>
           <button
             type="submit"
             className="w-full bg-lime-500 text-white py-2 rounded hover:bg-lime-600 transition text-sm cursor-pointer font-semibold"
           >
-            Submit
+            Wyślij
           </button>
         </form>
       </div>

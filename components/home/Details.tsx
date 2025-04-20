@@ -5,12 +5,12 @@ export default function Details() {
   return (
     <div>
       <section className="bg-white">
-        <div className="container mx-auto px-3 py-5 md:py-7 lg:py-10">
+        <div className="container mx-auto px-3 py-1 md:py-7 lg:py-10">
           <h2 className="text-[#7ACA2A] font-bold text-xl md:text-2xl text-center">
             Funkcje Urban Crops <br /> i Przewaga Konkurencyjna
           </h2>
           <div className="">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2 md:pt-5">
               <div className="grid grid-cols-2 order-2 md:order-1">
                 <div className="flex justify-end items-center -me-12 lg:-me-16">
                   <Image
@@ -34,29 +34,26 @@ export default function Details() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-[#7ACA2A] font-semibold text-lg md:text-xl mt-4">
+                <h3 className="text-[#7ACA2A] font-semibold text-lg md:text-xl mt-2 md:mt-4">
                   Efektywna produkcja żywności
                 </h3>
                 <p className="text-gray-700 mt-2">
-                  UrbanCrops oferuje zdrową żywność, która jest nieodłącznym:
+                  UrbanCrops oferuje zdrową i świeżą żywność, której pozyskanie
+                  możliwe jest dzięki połączeniu:
                 </p>
                 <ul className="mt-3 space-y-2 text-gray-700">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
-                    Fotobioreaktory i hydroponika
+                    Fotobioreaktorów
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
-                    Lokalna dostępność
-                  </li>
-                  <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
-                    Zrównoważona produkcja
+                    Hydroponiki
                   </li>
                 </ul>
                 <p className="mt-4 text-orange-500 text-sm">
-                  Dzięki temu można dostosować produkcję do lokalnych
-                  preferencji i potrzeb społeczności.
+                  PRZEZ CO MOŻNA DOSTOSOWAĆ PRODUKCJĘ DO LOKALNYCH PREFERENCJI I
+                  POTRZEB SPOŁECZNOŚCI.
                 </p>
               </div>
             </div>
@@ -64,9 +61,9 @@ export default function Details() {
         </div>
       </section>
       <section className="bg-[#EBFFD8]">
-        <div className="container mx-auto px-3 py-5 md:py-7 lg:py-10">
+        <div className="container mx-auto px-3 py-1 md:py-7 lg:py-10">
           <div className="">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2 md:pt-5">
               <div className="grid grid-cols-2 order-2">
                 <div className="flex justify-end items-center -me-12 lg:-me-16">
                   <Image
@@ -90,30 +87,30 @@ export default function Details() {
                 </div>
               </div>
               <div className="order-1">
-                <h3 className="text-[#7ACA2A] font-semibold text-lg md:text-xl mt-4">
+                <h3 className="text-[#7ACA2A] font-semibold text-lg md:text-xl md:mt-4">
                   Odnawialne źródła energii
                 </h3>
                 <p className="text-gray-700 mt-2">
-                  Projekt posiada wiele funkcji, które dodatkowo współgrają jego
-                  rolą dbania o środowisko.
+                  Projekt posiada wiele systemów, które dodatkowo współgrają z
+                  jego rolą dbania o środowisko:
                 </p>
                 <ul className="mt-3 space-y-2 text-gray-700">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
-                    Turbiny wiatrowe i panele fotowoltaiczne
+                    Turbiny wiatrowe
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
-                    Niezależność energetyczna
+                    Panele fotowoltaiczne
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
-                    Produkcja biomasy
+                    Biomasa
                   </li>
                 </ul>
                 <p className="mt-4 text-orange-500 text-sm">
-                  UrbanCrops stosuje technologie, które minimalizują straty i
-                  odpady w procesie produkcji żywności.
+                  URBANCROPS POSIADA TAKŻE TECHNOLOGIE MINIMALIZUJĄCE STRATY I
+                  ODPADY WYSTĘPUJĄCE W PROCESIE PRODUKCJI ŻYWNOŚCI.
                 </p>
               </div>
             </div>
@@ -121,9 +118,9 @@ export default function Details() {
         </div>
       </section>
       <section className="bg-white">
-        <div className="container mx-auto px-3 py-5 md:py-7 lg:py-10">
+        <div className="container mx-auto px-3 py-1 md:py-7 lg:py-10">
           <div className="">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:pt-5">
               <div className="grid grid-cols-2 order-2 md:order-1">
                 <div className="flex justify-end items-center -me-12 lg:-me-16">
                   <Image
@@ -147,31 +144,26 @@ export default function Details() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-[#7ACA2A] font-semibold text-lg md:text-xl mt-4">
+                <h3 className="text-[#7ACA2A] font-semibold text-lg md:text-xl mt-2 md:mt-4">
                   Koncepcja &quot;Farm-to-table&quot;
                 </h3>
                 <p className="text-gray-700 mt-2">
-                  UrbanCrops wspiera ideę &quot;Farm-to-table&quot;, gdzie
-                  żywność jest produkowana lokalnie jest bezpośrednio
-                  dostarczana na stół konsumenta.
+                  UrbanCrops wspiera ideę &quot;Farm-to-table&quot;, co
+                  przekłada się na:
                 </p>
                 <ul className="mt-3 space-y-2 text-gray-700">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
-                    Świeżość produktów przekłada się na lepszy smak
+                    Świeże produkty
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
-                    Świadomość pochodzenia żywności
-                  </li>
-                  <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#7ACA2A] rounded-full mr-2"></span>
-                    Zwiększone bezpieczeństwo żywnościowe
+                    Lepszy smak
                   </li>
                 </ul>
                 <p className="mt-4 text-orange-500 text-sm">
-                  Krótsza odległość między uprawami a stołem konsumenta
-                  minimalizuje ryzyko przerw w dostawach.
+                  Dodatkowo niewielka odległość między uprawami, a stołem
+                  konsumenta minimalizuje ryzyko przerw w dostawach.
                 </p>
               </div>
             </div>
