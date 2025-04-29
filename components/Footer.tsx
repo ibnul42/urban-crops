@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="col-span-12 flex justify-between items-center">
             <Logo src="/assets/logo_white.png" color="text-white" />
               <Link
-                href="https://www.linkedin.com/in/kacper-szajnecki-7036352b3/"
+                href="https://www.linkedin.com/company/urban-cropss/?viewAsMember=true"
                 target="_blank"
               >
                 <FaLinkedin className="w-6 h-6 hover:scale-110 cursor-pointer transition" />
