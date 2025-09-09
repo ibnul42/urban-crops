@@ -3,12 +3,13 @@ import TeamMemberCard from "./TeamMemberCard";
 import FacebookIcon from "../icons/FacebookIcon";
 import Link from "next/link";
 import LinkedInIcon from "../icons/LinkedInIcon";
+import TranslatedText from "./TranslatedText";
 
 const TeamSection = () => {
   return (
     <section className="bg-[#EBFFD8] py-10">
       <h2 className="text-center text-[#7ACA2A] font-bold text-xl mb-8">
-        Członkowie naszego zespołu
+        <TranslatedText name="team.title" />
       </h2>
 
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

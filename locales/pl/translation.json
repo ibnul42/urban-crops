@@ -1,0 +1,149 @@
+{
+  "hero": {
+    "title": "Czas na wzrost",
+    "subtitle": "Twoja wizja. Twoja społeczność.",
+    "description": "Rozpocznij uprawę dzięki kompletnej platformie do pionowego rolnictwa Urban Crops."
+  },
+  "details": {
+    "title1": "Funkcje Urban Crops",
+    "title2": "i Przewaga Konkurencyjna",
+    "feature1": {
+      "title": "Efektywna produkcja żywności",
+      "description": "UrbanCrops oferuje zdrową i świeżą żywność, której pozyskanie możliwe jest dzięki połączeniu:",
+      "options": {
+        "option1": "Fotobioreaktorów",
+        "option2": "Hydroponiki"
+      },
+      "note": "PRZEZ CO MOŻNA DOSTOSOWAĆ PRODUKCJĘ DO LOKALNYCH PREFERENCJI I POTRZEB SPOŁECZNOŚCI."
+    },
+    "feature2": {
+      "title": "Odnawialne źródła energii",
+      "description": "Projekt posiada wiele systemów, które dodatkowo współgrają z jego rolą dbania o środowisko:",
+      "options": {
+        "option1": "Turbiny wiatrowe",
+        "option2": "Panele fotowoltaiczne",
+        "option3": "Biomasa"
+      },
+      "note": "URBANCROPS POSIADA TAKŻE TECHNOLOGIE MINIMALIZUJĄCE STRATY I ODPADY WYSTĘPUJĄCE W PROCESIE PRODUKCJI ŻYWNOŚCI."
+    },
+    "feature3": {
+      "title": "Koncepcja 'Farm-to-table'",
+      "description": "UrbanCrops wspiera ideę 'Farm-to-table', co przekłada się na:",
+      "options": {
+        "option1": "Świeże produkty",
+        "option2": "Lepszy smak"
+      },
+      "note": "Dodatkowo niewielka odległość między uprawami, a stołem konsumenta minimalizuje ryzyko przerw w dostawach."
+    }
+  },
+  "whatWeGrow": {
+    "title": "Co można uprawiać",
+    "items": {
+      "lettuce": {
+        "title": "SAŁATY",
+        "desc": "Sałata rośnie szybko i jest łatwa w uprawie. Jej kruchość sprawia, że jest atrakcyjna dla konsumentów, a produkcja w systemach hydroponicznych zwiększa jej walory odżywcze."
+      },
+      "strawberry": {
+        "title": "TRUSKAWKI",
+        "desc": "System hydroponiczny pozwala na dostarczanie składników i wody bezpośrednio do korzeni, dzięki czemu truskawki mogą osiągać lepsze plony i mają większą trwałość oraz cenę na rynku."
+      },
+      "tomato": {
+        "title": "POMIDORY",
+        "desc": "Pomidory uprawiane metodą hydroponiczną mają doskonały smak i są odporne na choroby. Idealne do spożycia na surowo lub w gotowaniu."
+      },
+      "basil": {
+        "title": "ZIOŁA",
+        "desc": "Bazylia to zielone zioło, które kojarzy się z kuchnią śródziemnomorską. Rośnie szybko i daje przyjemny aromat. Świetnie sprawdza się w uprawach hydroponicznych."
+      },
+      "cucumber": {
+        "title": "OGÓRKI",
+        "desc": "Produkcja ogórków metodą hydroponiczną jest wydajna i pozwala na uprawę bez konieczności używania gleby."
+      }
+    }
+  },
+  "faq": {
+    "title": "Często zadawane pytania",
+    "items": [
+      {
+        "question": "O co chodzi w Urban Crops?",
+        "answer": "Tworzymy nowoczesne miejskie farmy, które pozwalają uprawiać świeże warzywa i zioła przez cały rok – bez pestycydów, bez gleby i bez martwienia się o pogodę."
+      },
+      {
+        "question": "Jak to działa?",
+        "answer": "Rośliny rosną w systemie hydroponicznym, czyli w wodzie wzbogaconej o składniki odżywcze pochodzące z fotobioreaktorów. Dzięki specjalnym lampom LED dostają idealną ilość światła, co przyspiesza ich wzrost i zapewnia najwyższą jakość."
+      },
+      {
+        "question": "Kto może z tego korzystać?",
+        "answer": "Nasze produkty trafiają do restauracji, sklepów i osób, które chcą jeść zdrowo i lokalnie. Planujemy rozwijać się w kolejnych miastach i współpracować z nowymi partnerami."
+      },
+      {
+        "question": "Czy w moim mieście może powstać Urban Crops?",
+        "answer": "Tak! Nasze farmy można zbudować niemal wszędzie – w sklepach, magazynach, restauracjach czy centrach dystrybucyjnych."
+      },
+      {
+        "question": "Co można uprawiać w Urban Crops?",
+        "answer": "Głównie mikroliście, sałaty i zioła, ale możliwości jest więcej. Możemy dostosować uprawy do potrzeb klientów."
+      },
+      {
+        "question": "Czy to jest ekologiczne?",
+        "answer": "Tak! Zużywamy do 90% mniej wody niż tradycyjne rolnictwo, nie stosujemy pestycydów i ograniczamy transport, więc mniej CO₂ trafia do atmosfery."
+      },
+      {
+        "question": "Gdzie można kupić produkty Urban Crops?",
+        "answer": "Współpracujemy ze sklepami i restauracjami – jeśli chcesz wiedzieć, czy są dostępne w Twojej okolicy, śledź nasze aktualności."
+      },
+      {
+        "question": "Czy Urban Crops działa cały rok?",
+        "answer": "Tak! Dzięki kontrolowanym warunkom możemy uprawiać rośliny 365 dni w roku, niezależnie od pogody."
+      },
+      {
+        "question": "Co zyskują restauracje, sklepy i klienci?",
+        "answer": "Świeże, lokalne produkty bez sztucznych dodatków, krótszy łańcuch dostaw i gwarancję jakości przez cały rok."
+      },
+      {
+        "question": "Czy mogę otworzyć własną farmę Urban Crops?",
+        "answer": "Tak! Jeśli interesuje Cię własna uprawa w mieście, możemy pomóc w jej wdrożeniu."
+      },
+      {
+        "question": "Jak Urban Crops wpływa na miasto i ludzi?",
+        "answer": "Tworzymy miejsca pracy, wspieramy lokalną gospodarkę i sprawiamy, że zdrowe jedzenie jest łatwiej dostępne."
+      },
+      {
+        "question": "Czy mogę odwiedzić farmę?",
+        "answer": "Jasne! Organizujemy wizyty – skontaktuj się z nami, a coś ustalimy."
+      },
+      {
+        "question": "Czym to różni się od tradycyjnego rolnictwa?",
+        "answer": "Nasze farmy zajmują mniej miejsca, zużywają mniej wody i pozwalają na całoroczną uprawę bez pestycydów i bez wpływu warunków atmosferycznych."
+      },
+      {
+        "question": "Jak mogę się zaangażować lub nawiązać współpracę?",
+        "answer": "Jeśli chcesz kupić nasze produkty, otworzyć farmę lub po prostu dowiedzieć się więcej – napisz do nas!"
+      }
+    ]
+  },
+  "team": {
+    "title": "Członkowie naszego zespołu",
+    "members": {
+      "Kacper Szajnecki": {
+        "role": "Twórca treści cyfrowych"
+      },
+      "Kacper Filipski": {
+        "role": "Założyciel"
+      },
+      "Michał Moryc": {
+        "role": "PR i Administracja"
+      }
+    }
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "description": "Jesteśmy tu dla Ciebie! Jak możemy pomóc?",
+    "form": {
+      "name": "Imię",
+      "email": "Email",
+      "message": "Twoja wiadomość...",
+      "send": "Wyślij"
+    }
+  }
+}

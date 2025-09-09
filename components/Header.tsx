@@ -5,6 +5,7 @@ import { FiX } from "react-icons/fi";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Logo from "./Logo";
+import LanguageSwitcher from "@/app/LanguageSwitcher";
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -17,7 +18,6 @@ const Header = () => {
   return (
     <header className="bg-white shadow w-full z-50">
       <div className="container mx-auto flex justify-between items-center px-3 py-4">
-        {/* Logo */}
         <Logo />
 
         {/* Desktop Nav */}
@@ -44,6 +44,7 @@ const Header = () => {
               <Icon className="text-[#7ACA2A] hover:text-green-800 text-2xl" />
             </Link>
           ))}
+          <LanguageSwitcher />
         </div>
 
         {/* Mobile Menu Button */}

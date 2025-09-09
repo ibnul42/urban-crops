@@ -1,31 +1,27 @@
 // components/WhatWeGrow.tsx
 import Image from "next/image";
+import TranslatedText from "./TranslatedText";
 
 const crops = [
   {
-    title: "SAŁATY",
+    title: "lettuce",
     img: "/assets/lettuce.png",
-    desc: "Sałata rośnie szybko i jest łatwa w uprawie. Jej kruchość sprawia, że jest atrakcyjna dla konsumentów, a produkcja w systemach hydroponicznych zwiększa jej walory odżywcze.",
   },
   {
-    title: "TRUSKAWKI",
+    title: "strawberry",
     img: "/assets/strawberry.png",
-    desc: "System hydroponiczny pozwala na dostarczanie składników i wody bezpośrednio do korzeni, dzięki czemu truskawki mogą osiągać lepsze plony i mają większą trwałość oraz cenę na rynku.",
   },
   {
-    title: "POMIDORY",
+    title: "tomato",
     img: "/assets/tomato.png",
-    desc: "Pomidory uprawiane metodą hydroponiczną mają doskonały smak i są odporne na choroby. Idealne do spożycia na surowo lub w gotowaniu.",
   },
   {
-    title: "ZIOŁA",
+    title: "basil",
     img: "/assets/basil.png",
-    desc: "Bazylia to zielone zioło, które kojarzy się z kuchnią śródziemnomorską. Rośnie szybko i daje przyjemny aromat. Świetnie sprawdza się w uprawach hydroponicznych.",
   },
   {
-    title: "OGÓRKI",
+    title: "cucumber",
     img: "/assets/cucumber.png",
-    desc: "Produkcja ogórków metodą hydroponiczną jest wydajna i pozwala na uprawę bez konieczności używania gleby.",
   },
 ];
 
@@ -33,7 +29,7 @@ const WhatWeGrow = () => {
   return (
     <section className="bg-white px-3 py-2 md:py-7 lg:py-10">
       <h2 className="text-center text-[#7ACA2A] font-semibold text-xl mb-5 md:mb-12">
-        Co można uprawiać
+        <TranslatedText name="whatWeGrow.title" />
       </h2>
       <div className="md:hidden">
         {crops.map((crop, idx) => (
@@ -78,9 +74,11 @@ const WhatWeGrow = () => {
               }`}
             >
               <h3 className="text-sm font-bold uppercase text-black py-2">
-                {crop.title}
+                <TranslatedText name={`whatWeGrow.items.${crop.title}.title`} />
               </h3>
-              <p className="flex-1 text-xs text-gray-500 py-2">{crop.desc}</p>
+              <p className="flex-1 text-xs text-gray-500 py-2">
+                <TranslatedText name={`whatWeGrow.items.${crop.title}.desc`} />
+              </p>
             </div>
           </div>
         ))}
@@ -118,9 +116,11 @@ const WhatWeGrow = () => {
               />
             </div>
             <h3 className="text-sm font-bold uppercase text-black py-2">
-              {crop.title}
+              <TranslatedText name={`whatWeGrow.items.${crop.title}.title`} />
             </h3>
-            <p className="flex-1 text-xs text-gray-500 py-2">{crop.desc}</p>
+            <p className="flex-1 text-xs text-gray-500 py-2">
+              <TranslatedText name={`whatWeGrow.items.${crop.title}.desc`} />
+            </p>
           </div>
         ))}
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import TranslatedText from "./TranslatedText";
 
 type TeamMemberCardProps = {
   name: string;
@@ -22,7 +23,9 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
         </div>
         <div className="px-2 pb-4">
           <h3 className="font-bold text-lg text-black">{name}</h3>
-          <p className="text-sm text-[#7ACA2A] font-medium">{role}</p>
+          <p className="text-sm text-[#7ACA2A] font-medium">
+            <TranslatedText name={`team.members.${name}.role`} />
+          </p>
         </div>
 
         {socials && (
