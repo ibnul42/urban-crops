@@ -9,7 +9,7 @@ export default function LanguageSwitcher() {
   const [open, setOpen] = useState(false);
 
   const languages = [
-    { code: "pl", label: "Polski", flag: "PL" },
+    { code: "pl", label: "Polish", flag: "PL" },
     { code: "en", label: "English", flag: "EN" },
   ];
 
