@@ -12,8 +12,8 @@ const TeamSection = () => {
         <TranslatedText name="team.title" />
       </h2>
 
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <TeamMemberCard
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {/* <TeamMemberCard
           name="Kacper Szajnecki"
           role="Twórca treści cyfrowych"
           imageUrl="/assets/szajnecki.jpg"
@@ -33,7 +33,7 @@ const TeamSection = () => {
               </Link>
             </>
           }
-        />
+        /> */}
 
         <TeamMemberCard
           name="Kacper Filipski"
@@ -58,6 +58,28 @@ const TeamSection = () => {
         />
 
         <TeamMemberCard
+          name="Dariusz Kunderman"
+          role="Współzałożyciel"
+          imageUrl="/assets/dariusz.jpg"
+          socials={
+            <>
+              {/* <Link
+                href="https://www.facebook.com/kacper.filipski.7/"
+                target="_blank"
+              >
+                <FacebookIcon className="w-6 h-6 hover:scale-110 cursor-pointer transition" />
+              </Link> */}
+              <Link
+                href="https://www.linkedin.com/in/dariusz-kunderman-15792795"
+                target="_blank"
+              >
+                <LinkedInIcon className="w-6 h-6 hover:scale-110 cursor-pointer transition" />
+              </Link>
+            </>
+          }
+        />
+
+        {/* <TeamMemberCard
           name="Michał Moryc"
           role="PR i Administracja"
           imageUrl="/assets/michal.jpg"
@@ -77,7 +99,7 @@ const TeamSection = () => {
               </Link>
             </>
           }
-        />
+        /> */}
       </div>
     </section>
   );

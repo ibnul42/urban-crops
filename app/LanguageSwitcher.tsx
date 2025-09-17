@@ -22,7 +22,7 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="group z-50">
-      <div className="relative h-full opacity-40 hover:opacity-70 transition-opacity">
+      <div className="relative h-full opacity-40 hover:opacity-80 transition-opacity">
         {/* Current language button */}
         <button
           onClick={() => setOpen(!open)}

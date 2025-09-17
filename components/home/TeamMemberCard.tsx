@@ -18,8 +18,8 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
   return (
     <div className="group bg-white relative">
       <div className="rounded-xl border border-[#7ACA2A] shadow-sm hover:shadow-md transition">
-        <div className="relative w-full rounded-t-xl h-96 overflow-hidden mb-4">
-          <Image src={imageUrl} alt={name} layout="fill" className="object-cover object-top" />
+        <div className="relative w-full rounded-t-xl h-[450px] overflow-hidden mb-4">
+          <Image src={imageUrl} alt={name} layout="fill" className="object-cover object-center" />
         </div>
         <div className="px-2 pb-4">
           <h3 className="font-bold text-lg text-black">{name}</h3>
