@@ -12,29 +12,7 @@ const TeamSection = () => {
         <TranslatedText name="team.title" />
       </h2>
 
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {/* <TeamMemberCard
-          name="Kacper Szajnecki"
-          role="Twórca treści cyfrowych"
-          imageUrl="/assets/szajnecki.jpg"
-          socials={
-            <>
-              <Link
-                href="https://www.facebook.com/kacperszajnecki"
-                target="_blank"
-              >
-                <FacebookIcon className="w-6 h-6 hover:scale-110 cursor-pointer transition" />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/kacper-szajnecki-7036352b3/"
-                target="_blank"
-              >
-                <LinkedInIcon className="w-6 h-6 hover:scale-110 cursor-pointer transition" />
-              </Link>
-            </>
-          }
-        /> */}
-
+      <div className="max-w-6xl mx-auto px-4 flex justify-center flex-wrap gap-6">
         <TeamMemberCard
           name="Kacper Filipski"
           role="Założyciel"
@@ -78,28 +56,6 @@ const TeamSection = () => {
             </>
           }
         />
-
-        {/* <TeamMemberCard
-          name="Michał Moryc"
-          role="PR i Administracja"
-          imageUrl="/assets/michal.jpg"
-          socials={
-            <>
-              <Link
-                href="https://www.facebook.com/profile.php?id=100039508831050"
-                target="_blank"
-              >
-                <FacebookIcon className="w-6 h-6 hover:scale-110 cursor-pointer transition" />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/michal-moryc/"
-                target="_blank"
-              >
-                <LinkedInIcon className="w-6 h-6 hover:scale-110 cursor-pointer transition" />
-              </Link>
-            </>
-          }
-        /> */}
       </div>
     </section>
   );

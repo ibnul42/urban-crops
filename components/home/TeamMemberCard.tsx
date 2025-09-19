@@ -16,9 +16,9 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
   socials,
 }) => {
   return (
-    <div className="group bg-white relative">
+    <div className="group bg-white relative w-full max-w-[400px]">
       <div className="rounded-xl border border-[#7ACA2A] shadow-sm hover:shadow-md transition">
-        <div className="relative w-full rounded-t-xl h-[450px] overflow-hidden mb-4">
+        <div className="relative w-full rounded-t-xl h-[250px] md:h-[300px] overflow-hidden mb-4">
           <Image src={imageUrl} alt={name} layout="fill" className="object-cover object-center" />
         </div>
         <div className="px-2 pb-4">
